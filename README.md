@@ -13,6 +13,8 @@ Prepare the lists from each equations and assign in np.array()
 Using the np.linalg.eig(),  we get two results (first is eigenvalue and second is eigenvector) of the given matrix.
 ### Step 4: 
 End the program
+
+## Program:
 ```
 #Program to find Eigen Values and Eigen Vectors.
 #Developed by: Mohamed Anas O.I
@@ -23,10 +25,9 @@ A = np.array([[4,2],[2,4]])
 values, vectors = np.linalg.eig(A)
 print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
 ```
-## Program:
-![Screenshot 2023-12-12 135312](https://github.com/Anas536/EIGENVALUES-AND-EIGENVECTORS/assets/139841834/7924c2eb-214b-4640-aff7-4c0d4f774669)
-
 
 ## Output:
+![Screenshot 2023-12-12 135312](https://github.com/Anas536/EIGENVALUES-AND-EIGENVECTORS/assets/139841834/7924c2eb-214b-4640-aff7-4c0d4f774669)
+
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
